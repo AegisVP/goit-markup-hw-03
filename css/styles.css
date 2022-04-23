@@ -1,0 +1,233 @@
+/******************************************************************
+                        Common styles 
+*******************************************************************/
+:root {
+  --default-text: #000000;
+  --contrast-text: #ffffff;
+  --dark-grey-text: #212121;
+  --light-grey-text: #757575;
+  --footer-text: rgba(255, 255, 255, 0.6);
+  --active-link-color: #2196f3;
+  --dark-grey-background: #2f303a;
+  --light-grey-background: #f5f4fa;
+}
+
+body {
+  color: var(--default-text);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* Logo styling */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo > .web {
+  color: var(--active-link-color);
+}
+.logo > .studio {
+  color: var(--default-text);
+}
+.logo > .studio-c {
+  color: var(--contrast-text);
+}
+
+/* Header styles */
+
+.header-nav-links {
+  list-style: none;
+}
+
+.header-nav-link > a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header-nav-link > a/*,
+.header-nav-link > a.selected:hover,
+.header-nav-link > a.selected:focus */ {
+  color: var(--dark-grey-text);
+}
+
+.header-nav-link > a:hover,
+.header-nav-link > a:focus,
+.header-nav-link > a.selected {
+  color: var(--active-link-color);
+}
+
+.header-addresses > a {
+  color: var(--light-grey-text);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header-addresses > a:hover,
+.header-addresses > a:focus {
+  color: var(--active-link-color);
+}
+
+/* Footer styles */
+
+.footer {
+  background-color: var(--dark-grey-background);
+}
+
+.footer-text {
+  color: var(--contrast-text);
+  font-style: normal; /* сброс user-agent стилей для тега address */
+}
+.footer-link {
+  color: var(--footer-text);
+  text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--active-link-color);
+}
+
+/******************************************************************
+                Index - Main section styles 
+*******************************************************************/
+
+/* Top banner styles */
+.top-banner {
+  background-color: var(--dark-grey-background);
+}
+
+.top-banner-text {
+  color: var(--contrast-text);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.top-banner-button {
+  background-color: var(--active-link-color);
+  color: var(--contrast-text);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+
+.section-list {
+  list-style: none;
+}
+
+.advantages-item-header {
+  color: var(--dark-grey-text);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages-item-text {
+  color: var(--light-grey-text);
+  
+  line-height: 1.71;
+}
+
+.section-header {
+  color: var(--dark-grey-text);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+
+  text-align: center;
+}
+
+.our-team {
+  background-color: var(--light-grey-background);
+}
+
+.team-member {
+  background: var(--contrast-text);
+}
+
+.team-member-name {
+  color: var(--dark-grey-text);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+.team-member-position {
+  color: var(--light-grey-text);
+
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+/******************************************************************
+                Portfolio - Main section styles 
+*******************************************************************/
+
+.portfolio-filter-list {
+  list-style: none;
+}
+
+.portfolio-filter-button {
+  background: var(--light-grey-background);
+  color: var(--dark-grey-text);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.portfolio-filter-button:hover,
+.portfolio-filter-button:active {
+  background: var(--active-link-color);
+  color: var(--contrast-text);
+}
+
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-item .project-title {
+  color: var(--dark-grey-text);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-item .project-type {
+  color: var(--light-grey-text);
+
+  font-size: 16px;
+  line-height: 1.88;
+}
