@@ -4,5 +4,5 @@ GoIT HW03
 https://aegisvp.github.io/goit-markup-hw-03/
 
 Using
-https://www.figma.com/file/D5pPB1Vyl59XUAWIjM6Cgz/Web-Studio-(Version-2.1)-(Copy)?node-id=1%3A96
+https://www.figma.com/file/3kyCr3AlgzlA7quK7mJ6jS/Web-Studio-(Version-2.1)-(Copy)
 as original design
