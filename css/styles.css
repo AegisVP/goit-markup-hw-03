@@ -28,8 +28,8 @@ body {
 }
 
 .section {
-  margin: 94px 0 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 94px 0;
 
   text-align: center;
 }
@@ -71,11 +71,15 @@ body {
 
 /* Header styles */
 
-.main-header {
+.main-header > .container {
   display: flex;
   min-height: 80px;
   padding: 0;
   align-items: center;
+}
+
+.main-header {
+  border: 1px solid #ECECEC;
 }
 
 .header-nav {
@@ -218,6 +222,10 @@ body {
 
 /* Our advantages section styles */
 
+.section.advantages {
+  padding-bottom: 0;
+}
+
 .advantages-list {
   display: flex;
 }
@@ -322,6 +330,10 @@ body {
                 Portfolio - Main section styles 
 *******************************************************************/
 
+.portfolio-filter {
+  padding-bottom: 0;
+}
+
 .portfolio-page-title {
   display: none;
 }
@@ -330,6 +342,8 @@ body {
   display: flex;
   justify-content: center;
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .portfolio-filter-list > .item:not(:last-child) {
@@ -359,8 +373,8 @@ margin-right: 8px;
 
 .portfolio-list-section {
   width: 1170;
-  margin-top: 50px;
-  margin-bottom: 94px;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .portfolio-list {
@@ -374,14 +388,18 @@ margin-right: 8px;
 
 .portfolio-list > .item {
   margin: 15px;
-  padding: 0 0 20px;
 
   font-size: 0;
-  outline: 1px solid #eeeeee;
   background-color: var(--contrast-text);
 }
 
-.portfolio-list > .item > .project-title {
+.portfolio-list > .item > .description {
+  padding: 0 0 20px;
+  
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-list > .item .project-title {
   margin: 20px 24px 4px;
 
   color: var(--dark-grey-text);
@@ -392,7 +410,7 @@ margin-right: 8px;
   letter-spacing: 0.06em;
 }
 
-.portfolio-list > .item > .project-type {
+.portfolio-list > .item .project-type {
   margin: 0 24px;
 
   color: var(--light-grey-text);
