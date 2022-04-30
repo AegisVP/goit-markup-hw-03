@@ -72,7 +72,7 @@ body {
 
 .main-header > .container {
   display: flex;
-  min-height: 80px;
+  /* min-height: 80px; */
   align-items: center;
 }
 
@@ -94,7 +94,7 @@ body {
 
 .header-nav-link > a {
   display: inline-block;
-  padding: 20px 0px;
+  padding: 32px 0px;
 
   font-weight: 500;
   line-height: 1.14;
