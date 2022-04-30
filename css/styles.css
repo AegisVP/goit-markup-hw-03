@@ -35,9 +35,9 @@ body {
 }
 
 .container {
-  min-width: 1170px;
-  width: 1170px;
-  padding: 0;
+  min-width: 1200px;
+  width: 1020px;
+  padding: 0 15px;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
@@ -74,7 +74,6 @@ body {
 .main-header > .container {
   display: flex;
   min-height: 80px;
-  padding: 0;
   align-items: center;
 }
 
@@ -144,8 +143,8 @@ body {
 
 .footer {
   min-height: 252px;
-  padding: 60px 215px;
-  background-color: var(--dark-grey-background);
+  padding: 60px 0;
+  background-color: var(--dark-grey-background); 
 }
 
 .footer-text {
@@ -372,9 +371,8 @@ margin-right: 8px;
 }
 
 .portfolio-list-section {
-  width: 1170;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  width: 1200;
+  padding: 50px 15px 94px;
 }
 
 .portfolio-list {
@@ -395,7 +393,7 @@ margin-right: 8px;
 
 .portfolio-list > .item > .description {
   padding: 0 0 20px;
-  
+
   border: 1px solid #eeeeee;
 }
 
