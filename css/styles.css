@@ -388,13 +388,13 @@ margin-right: 8px;
 }
 
 .portfolio-list > .item > .description {
-  padding: 0 0 20px;
+  padding: 20px 24px;
 
   border: 1px solid #eeeeee;
 }
 
 .portfolio-list > .item .project-title {
-  margin: 20px 24px 4px;
+  margin: 0 0 4px;
 
   color: var(--dark-grey-text);
 
@@ -405,7 +405,7 @@ margin-right: 8px;
 }
 
 .portfolio-list > .item .project-type {
-  margin: 0 24px;
+  margin: 0;
 
   color: var(--light-grey-text);
 
